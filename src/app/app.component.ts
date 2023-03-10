@@ -8,7 +8,7 @@ import { Component, HostListener, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
   books: any = [];
-  response: any;
+  response: any = "";
   isDesktop = false;
   sortByTitle = true;
   constructor(private homeworkServiceService: HomeworkServiceService) { }
